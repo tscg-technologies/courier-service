@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Courier Pickup | Contact</title>
+  <meta name="description" content="Schedule a demonstration parcel pickup. Configure sender, recipient, package dimensions, and service speed preferences with simulated booking verification.">
+  <meta property="og:title" content="Book a Courier Pickup | Contact">
+  <meta property="og:description" content="Schedule courier pickups, evaluate dimensional parcel requirements, and test client-side booking validation. TSCG Technologies portfolio demonstration.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Courier Services Homepage">
+        <div class="brand-icon-symbol" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L3 7L12 12L21 7L12 2Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 17L12 22L21 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 12L12 17L21 12" stroke="#35C6E6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="brand-title">
+          <span class="main-text">COURIER SERVICES</span>
+          <span class="sub-text">PARCEL &amp; EXPRESS DELIVERY</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="business-solutions.html" class="nav-link">Business Solutions</a>
+        <a href="tracking-projects.html" class="nav-link">Tracking</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <!-- Header Right: Dummy Info & CTA -->
+      <div class="header-actions">
+        <div class="header-phone-box">
+          <span class="header-phone-label">Demo Phone</span>
+          <span class="header-phone-number">0000000000</span>
+        </div>
+        <a href="contact.html" class="btn btn-primary btn-sm">Book a Pickup</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-menu-drawer" id="mobileDrawer">
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="business-solutions.html" class="nav-link">Business Solutions</a>
+      <a href="tracking-projects.html" class="nav-link">Tracking &amp; Projects</a>
+      <a href="contact.html" class="nav-link active">Contact / Book a Pickup</a>
+    </nav>
+    <div class="mobile-menu-bottom">
+      <div class="demo-disclaimer-pill">Portfolio Demonstration Mode</div>
+      <p style="font-size:0.85rem; color:#94a3b8;">Demo Helpline: 0000000000 (Dummy Content)</p>
+      <a href="contact.html" class="btn btn-orange">Book a Demonstration Pickup</a>
+    </div>
+  </div>
+
+  <!-- Mobile Sticky Bottom CTA -->
+  <aside class="mobile-sticky-bar">
+    <a href="contact.html" class="btn btn-orange btn-sm">
+      <svg class="btn-icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      Book a Pickup (Demo)
+    </a>
+  </aside>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="section section-dark" style="padding-top: calc(var(--header-height) + 48px); padding-bottom: 64px;">
+      <div class="container">
+        <div class="section-header text-left" style="max-width: 860px;">
+          <span class="section-eyebrow">Interactive Booking Portal</span>
+          <h1 class="section-title">LET'S GET YOUR PARCEL MOVING.</h1>
+          <p class="section-description">
+            Share your pickup, destination and parcel details to explore the right courier service and submit a demonstration pickup request.
+          </p>
+          <div style="margin-top: 20px;">
+            <span class="demo-disclaimer-pill">DEMO BOOKING FORM — NO REAL PICKUP IS CREATED. INFORMATION IS NOT SENT OR STORED.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT INFO & BOOKING FORM CONTAINER -->
+    <section class="section section-charcoal" style="padding-top: 40px;">
+      <div class="container">
+        <div class="hero-grid" style="align-items: flex-start; gap: 48px;">
+
+          <!-- Left Column: Dummy Contact Information -->
+          <div>
+            <div class="feature-card" style="margin-bottom: 28px; position: sticky; top: calc(var(--header-height) + 24px);">
+              <span class="section-eyebrow orange" style="margin-bottom: 14px;">Inquiry &amp; Support</span>
+              <h2 style="font-size: 1.5rem; margin-bottom: 12px; color: #ffffff;">Demonstration Logistics Desk</h2>
+              <p style="font-size: 0.92rem; color: #94a3b8; line-height: 1.6; margin-bottom: 24px;">
+                All contact parameters and operational schedules shown below represent simulated demonstration records for portfolio review.
+              </p>
+
+              <ul class="footer-contact-info" style="margin-bottom: 24px;">
+                <li style="border-bottom: 1px solid var(--color-border-dark); padding-bottom: 14px;">
+                  <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <div class="footer-contact-text">
+                    <strong>Telephone Helpline (Dummy):</strong>
+                    <span>0000000000</span>
+                  </div>
+                </li>
+
+                <li style="border-bottom: 1px solid var(--color-border-dark); padding-bottom: 14px;">
+                  <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  <div class="footer-contact-text">
+                    <strong>Support Email (Dummy):</strong>
+                    <span>demo@example.com</span>
+                  </div>
+                </li>
+
+                <li style="border-bottom: 1px solid var(--color-border-dark); padding-bottom: 14px;">
+                  <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <div class="footer-contact-text">
+                    <strong>Demonstration Facility Address:</strong>
+                    <span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+                  </div>
+                </li>
+
+                <li>
+                  <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <div class="footer-contact-text">
+                    <strong>Operational Hours:</strong>
+                    <span>Monday–Saturday: 9:00 AM–6:00 PM<br>Sunday: Closed</span>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="hero-image-wrapper" style="margin-bottom: 20px;">
+                <img src="images/courier-delivery-warehouse.jpeg" alt="High-Bay Staging Area and Fleet Loading Bays" width="1600" height="900" loading="lazy">
+              </div>
+
+              <div class="demo-banner-box" style="margin-bottom: 0;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span style="font-size:0.8rem;">No real telephone calls, WhatsApp channels, or physical visits are supported.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Multi-Section Booking Form -->
+          <div>
+            <form id="courierBookingForm" novalidate>
+
+              <!-- Section 1: Sender Details -->
+              <div class="form-section-card">
+                <h3 class="form-section-title">
+                  <span class="form-step-badge">1</span>
+                  Sender &amp; Collection Details
+                </h3>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="senderName" class="form-label">Sender Full Name <span class="req">*</span></label>
+                    <input type="text" id="senderName" class="form-control" placeholder="e.g. Arun Kumar" required>
+                    <span id="senderNameError" class="form-error-msg">Please enter sender full name</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="senderPhone" class="form-label">Phone Number (10 Digits) <span class="req">*</span></label>
+                    <input type="tel" id="senderPhone" class="form-control" placeholder="e.g. 9876543210" maxlength="10" required>
+                    <span id="senderPhoneError" class="form-error-msg">Please enter valid 10-digit phone number</span>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label for="senderEmail" class="form-label">Email Address <span class="req">*</span></label>
+                    <input type="email" id="senderEmail" class="form-control" placeholder="arun@example.com" required>
+                    <span id="senderEmailError" class="form-error-msg">Please enter valid email address</span>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label for="pickupAddress" class="form-label">Complete Pickup Address <span class="req">*</span></label>
+                    <textarea id="pickupAddress" class="form-control" rows="2" placeholder="Building, Street, Landmark, City" required></textarea>
+                    <span id="pickupAddressError" class="form-error-msg">Please enter complete pickup address</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="pickupPin" class="form-label">Pickup PIN Code (6 Digits) <span class="req">*</span></label>
+                    <input type="text" id="pickupPin" class="form-control" placeholder="e.g. 500034" maxlength="6" required>
+                    <span id="pickupPinError" class="form-error-msg">Please enter 6-digit PIN code</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 2: Receiver Details -->
+              <div class="form-section-card">
+                <h3 class="form-section-title">
+                  <span class="form-step-badge">2</span>
+                  Receiver &amp; Destination Details
+                </h3>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="receiverName" class="form-label">Receiver Full Name <span class="req">*</span></label>
+                    <input type="text" id="receiverName" class="form-control" placeholder="e.g. Priya Sharma" required>
+                    <span id="receiverNameError" class="form-error-msg">Please enter receiver name</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="receiverPhone" class="form-label">Receiver Phone (10 Digits) <span class="req">*</span></label>
+                    <input type="tel" id="receiverPhone" class="form-control" placeholder="e.g. 9123456780" maxlength="10" required>
+                    <span id="receiverPhoneError" class="form-error-msg">Please enter valid 10-digit receiver phone</span>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label for="deliveryAddress" class="form-label">Delivery Street Address <span class="req">*</span></label>
+                    <textarea id="deliveryAddress" class="form-control" rows="2" placeholder="Flat No, Wing, Society, Area, City" required></textarea>
+                    <span id="deliveryAddressError" class="form-error-msg">Please enter complete delivery address</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="deliveryPin" class="form-label">Delivery PIN Code (6 Digits) <span class="req">*</span></label>
+                    <input type="text" id="deliveryPin" class="form-control" placeholder="e.g. 560001" maxlength="6" required>
+                    <span id="deliveryPinError" class="form-error-msg">Please enter 6-digit delivery PIN code</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 3: Parcel Information -->
+              <div class="form-section-card">
+                <h3 class="form-section-title">
+                  <span class="form-step-badge">3</span>
+                  Parcel Specifications
+                </h3>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="parcelCategory" class="form-label">Parcel Category <span class="req">*</span></label>
+                    <select id="parcelCategory" class="form-control" required>
+                      <option value="">Select Category...</option>
+                      <option value="Documents">Documents &amp; Certificates</option>
+                      <option value="Personal Parcel">Personal Parcel / Gift</option>
+                      <option value="E-commerce Package">E-commerce Package</option>
+                      <option value="Retail Order">Retail Order</option>
+                      <option value="Business Shipment">Business Shipment</option>
+                      <option value="Other">Other Packaged Goods</option>
+                    </select>
+                    <span id="parcelCategoryError" class="form-error-msg">Please select a parcel category</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="packageWeight" class="form-label">Approximate Weight (kg) <span class="req">*</span></label>
+                    <input type="number" id="packageWeight" class="form-control" placeholder="e.g. 1.5" step="0.1" min="0.1" required>
+                    <span id="packageWeightError" class="form-error-msg">Enter valid weight in kg</span>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label for="packageDesc" class="form-label">Package Description</label>
+                    <input type="text" id="packageDesc" class="form-control" placeholder="e.g. Cotton clothing, printed contracts, replacement mouse">
+                  </div>
+                </div>
+
+                <!-- Dimensions Row -->
+                <div class="form-grid-3" style="margin-top: 10px;">
+                  <div class="form-group">
+                    <label for="dimL" class="form-label">Length (cm)</label>
+                    <input type="number" id="dimL" class="form-control" placeholder="L" min="1" value="20">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="dimW" class="form-label">Width (cm)</label>
+                    <input type="number" id="dimW" class="form-control" placeholder="W" min="1" value="15">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="dimH" class="form-label">Height (cm)</label>
+                    <input type="number" id="dimH" class="form-control" placeholder="H" min="1" value="10">
+                  </div>
+                </div>
+
+                <div class="form-grid-2" style="margin-top: 6px;">
+                  <div class="form-group">
+                    <label for="packageQuantity" class="form-label">Number of Packages <span class="req">*</span></label>
+                    <input type="number" id="packageQuantity" class="form-control" value="1" min="1" required>
+                    <span id="packageQuantityError" class="form-error-msg">Quantity must be at least 1</span>
+                  </div>
+
+                  <div class="form-group" style="display:flex; align-items:flex-end;">
+                    <label class="checkbox-card" style="width:100%;">
+                      <input type="checkbox" id="fragileToggle">
+                      <span style="font-size:0.9rem; color:#ffffff; font-weight:600;">Fragile / Handle With Care Package</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 4: Delivery Preferences -->
+              <div class="form-section-card">
+                <h3 class="form-section-title">
+                  <span class="form-step-badge">4</span>
+                  Delivery Preferences &amp; Scheduling
+                </h3>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="serviceOption" class="form-label">Delivery Service Option <span class="req">*</span></label>
+                    <select id="serviceOption" class="form-control" required>
+                      <option value="">Select Service...</option>
+                      <option value="Same-Day Courier">Same-Day Courier</option>
+                      <option value="Express Courier">Express Courier (Priority Air/Road)</option>
+                      <option value="Standard Courier">Standard Courier Delivery</option>
+                      <option value="Document Delivery">Document Delivery (Tamper-Evident)</option>
+                      <option value="Business Courier">Business Courier Services</option>
+                      <option value="Reverse Pickup">Reverse Pickup &amp; Returns</option>
+                      <option value="Need Guidance">Not Sure — Need Guidance</option>
+                    </select>
+                    <span id="serviceOptionError" class="form-error-msg">Please select a delivery service</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="pickupDate" class="form-label">Preferred Pickup Date <span class="req">*</span></label>
+                    <input type="date" id="pickupDate" class="form-control" required>
+                    <span id="pickupDateError" class="form-error-msg">Please select preferred pickup date</span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="pickupTime" class="form-label">Preferred Time Window</label>
+                    <select id="pickupTime" class="form-control">
+                      <option value="morning">Morning Slot (09:00 AM – 01:00 PM)</option>
+                      <option value="afternoon">Afternoon Slot (01:00 PM – 05:00 PM)</option>
+                      <option value="evening">Evening Slot (05:00 PM – 07:00 PM)</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label for="specialInstructions" class="form-label">Special Instructions for Field Courier</label>
+                    <textarea id="specialInstructions" class="form-control" rows="2" placeholder="e.g. Ring doorbell, security desk collection, call before arriving"></textarea>
+                  </div>
+                </div>
+
+                <div style="background:rgba(255,140,66,0.1); border:1px solid rgba(255,140,66,0.3); border-radius:var(--radius-md); padding:16px; margin-top:20px; font-size:0.82rem; color:#f8fafc;">
+                  <strong style="color:var(--color-orange);">DEMO BOOKING NOTICE:</strong> This form operates purely on the frontend. No actual AWB number is generated, no courier vehicle is dispatched, no pickup slot is booked, and no financial charge or payment is processed.
+                </div>
+
+                <div style="text-align: right; margin-top: 24px;">
+                  <button type="submit" class="btn btn-orange btn-lg">Submit Demonstration Pickup Request</button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SUCCESS CONFIRMATION MODAL -->
+  <div class="modal-overlay" id="bookingConfirmationModal" role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
+    <div class="modal-dialog" style="max-width: 600px;">
+      <div class="confirmation-content">
+        <div class="confirmation-icon-circle" aria-hidden="true">✓</div>
+        <div class="demo-disclaimer-pill" style="margin-bottom:12px;">Demonstration Submission</div>
+        <h3 id="confirmTitle" style="font-size: 1.6rem; margin-bottom: 12px; color: #ffffff;">Demonstration Booking Received</h3>
+        <p style="font-size: 0.95rem; color: #94A3B8; line-height: 1.6; margin-bottom: 24px;">
+          Your simulated courier pickup parameters have been validated and rendered for portfolio demonstration.
+        </p>
+
+        <div style="background:#111e2e; border:1px solid var(--color-border-dark); border-radius:var(--radius-md); padding:20px; text-align:left; margin-bottom:24px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:10px; font-size:0.88rem;">
+            <span style="color:#94a3b8;">Simulated Reference:</span>
+            <strong style="color:#35C6E6; font-family:var(--font-mono);">DEMO-BK-88492</strong>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:10px; font-size:0.88rem;">
+            <span style="color:#94a3b8;">Assigned Status:</span>
+            <strong style="color:#22c55e;">Demo Queue Initialized</strong>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:0.88rem;">
+            <span style="color:#94a3b8;">Notice:</span>
+            <span style="color:#FF8C42; font-weight:600;">No real pickup or tracking created</span>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="bookingModalCloseBtn">Close Confirmation</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-brand">
+          <div class="brand-logo">
+            <div class="brand-icon-symbol" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L3 7L12 12L21 7L12 2Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 17L12 22L21 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 12L12 17L21 12" stroke="#35C6E6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="brand-title">
+              <span class="main-text">COURIER SERVICES</span>
+              <span class="sub-text">PARCEL &amp; EXPRESS DELIVERY</span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            A specialized courier and parcel delivery demonstration website created for TSCG Technologies portfolio showcases. Designed to highlight customer workflows, tracking clarity, and business logistics concepts.
+          </p>
+          <div class="demo-disclaimer-pill">Frontend Portfolio Demonstration</div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="business-solutions.html">Business Solutions</a></li>
+            <li><a href="tracking-projects.html">Tracking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html#sameDay">Same-Day Courier</a></li>
+            <li><a href="services.html#express">Express Delivery</a></li>
+            <li><a href="services.html#standard">Standard Courier</a></li>
+            <li><a href="services.html#document">Document Delivery</a></li>
+            <li><a href="services.html#ecommerce">E-commerce Delivery</a></li>
+            <li><a href="services.html#reverse">Reverse Pickup</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact Information</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <div class="footer-contact-text">
+                <strong>Phone (Dummy):</strong>
+                <span>0000000000</span>
+              </div>
+            </li>
+            <li>
+              <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <div class="footer-contact-text">
+                <strong>Email (Dummy):</strong>
+                <span>demo@example.com</span>
+              </div>
+            </li>
+            <li>
+              <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div class="footer-contact-text">
+                <strong>Address (Demonstration):</strong>
+                <span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+              </div>
+            </li>
+            <li>
+              <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div class="footer-contact-text">
+                <strong>Working Hours:</strong>
+                <span>Mon–Sat: 9:00 AM–6:00 PM<br>Sunday: Closed</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2027 Courier &amp; Parcel Delivery Services — TSCG Technologies Portfolio Demonstration. All rights reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <span>Demonstration Notice</span>
+          <span>•</span>
+          <span>Simulated Interface</span>
+          <span>•</span>
+          <span>No Actual Service Operation</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top-btn" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
